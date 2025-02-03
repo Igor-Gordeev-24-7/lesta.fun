@@ -1,10 +1,10 @@
 import { BrowserRouter } from "react-router-dom";
-import Routes from "./Routes"; // Импорт вашего компонента с маршрутизацией
+import Routes from "./Routes"; // Импорт маршрутов
 
 function App() {
   return (
     <BrowserRouter>
-      <Routes /> {/* Рендеринг маршрутов */}
+      <Routes /> {/* Оборачиваем только один раз */}
     </BrowserRouter>
   );
 }
