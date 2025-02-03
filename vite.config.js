@@ -7,7 +7,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       "/api": {
-        target: "http://localhost:5000", // Прокси для бэкенда
+        target: "http://localhost:5001", // Прокси для бэкенда
         changeOrigin: true,
         secure: false,
       },
